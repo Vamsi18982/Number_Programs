@@ -1,0 +1,6 @@
+def composite(num,facount=0):
+
+    for fa in range(1,num+1):
+        if num%fa==0:
+            facount+=1
+    return facount>2
